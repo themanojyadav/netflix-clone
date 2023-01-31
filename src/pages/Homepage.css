@@ -1,0 +1,110 @@
+.banner_sec {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.765),
+      rgba(0, 0, 0, 0.727)
+    ),
+    url("https://i.pinimg.com/originals/ba/05/5e/ba055e048c003933747a91c64c20cc17.jpg");
+  background-size: 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+.banner_content_wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white !important;
+  transform: translateY(30%);
+}
+
+.banner_content_col {
+  width: 60%;
+  text-align: center;
+}
+
+.banner_content_title {
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.banner_sn_col input {
+  border-radius: 0px;
+  height: 70px;
+  font-size: 18px;
+}
+
+.banner_sn_col button {
+  font-size: 30px;
+}
+
+.navbar_btn_col {
+  display: flex;
+  align-items: center;
+}
+
+.navbar_logo_col {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar_logo {
+  height: 120px;
+  object-fit: contain;
+}
+
+.navbar_language_selector {
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0px !important;
+}
+
+.faq_content,
+.faq_sn_col {
+  width: 60%;
+  margin: auto;
+}
+
+.faq_accordian .accordion-item {
+  border: unset;
+}
+
+.faq_accordian .accordion-button {
+  background-color: #303030 !important;
+  color: white;
+  font-size: 26px;
+  padding: 26px 30px;
+}
+
+.faq_accordian .accordion-button:focus {
+  box-shadow: unset;
+  border: unset;
+  border-bottom: 1px solid black;
+}
+
+.faq_accordian .accordion-button:not(.collapsed) {
+  box-shadow: unset;
+  border-bottom: 1px solid black;
+}
+
+.faq_accordian .accordion-body {
+  background-color: #303030 !important;
+  color: white;
+  font-size: 26px;
+  padding: 26px 30px;
+}
+
+.faq_sn_col input {
+  border-radius: 0px;
+  height: 70px;
+  font-size: 18px;
+}
+
+.faq_sn_col button {
+  font-size: 30px;
+}
