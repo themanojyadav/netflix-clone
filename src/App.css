@@ -3,9 +3,16 @@ button:focus {
   box-shadow: unset;
 }
 
-.btn-custom {
-  background-color: red;
-  color: white;
+a {
+  color: #191919;
+  text-decoration: none;
+}
+
+.btn-custom,
+.btn-custom:hover,
+.btn-custom:focus {
+  background-color: red !important;
+  color: white !important;
   padding: 8px 20px;
   border-radius: 0px !important;
 }
@@ -50,4 +57,13 @@ button:focus {
 
 .footer_list li {
   line-height: 26px;
+}
+
+.custom-small-text {
+  color: #737373;
+  font-size: 13px;
+}
+
+.custom-text-muted {
+  color: #737373;
 }

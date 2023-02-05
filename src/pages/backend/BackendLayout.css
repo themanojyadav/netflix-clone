@@ -1,0 +1,63 @@
+.backend_wrapper {
+  background-color: black;
+  color: white;
+}
+
+.b_nav_logo {
+  height: 120px;
+  object-fit: contain;
+}
+
+.b_nav_content_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.b_nav_left_col {
+  display: flex;
+  align-items: center;
+}
+
+.b_nav_menu_list,
+.b_nav_right_menu_list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.b_nav_menu_list li a {
+  padding: 5px 10px;
+  display: block;
+  color: whitesmoke;
+}
+
+.b_nav_right_col {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.b_nav_right_menu_list li a {
+  padding: 5px 12px;
+  display: block;
+  color: whitesmoke;
+}
+
+/* COmmon */
+.b_common_list_section_title {
+  color: whitesmoke;
+}
+
+.b_common_list_section {
+  padding: 30px 0px;
+}
+
+/* Movie */
+.b_movie {
+  border: 1px solid #3f3f3f;
+}
+
+.cast_crew_col {
+  border: 1px solid #3f3f3f;
+}

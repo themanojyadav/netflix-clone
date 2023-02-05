@@ -1,13 +1,13 @@
 .banner_sec {
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.765),
-      rgba(0, 0, 0, 0.727)
+      rgba(0, 0, 0, 0.622),
+      rgba(0, 0, 0, 0.551)
     ),
     url("https://i.pinimg.com/originals/ba/05/5e/ba055e048c003933747a91c64c20cc17.jpg");
   background-size: 100%;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .banner_content_wrapper {

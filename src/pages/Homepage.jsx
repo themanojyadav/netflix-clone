@@ -9,17 +9,19 @@ function Homepage() {
         <div className="container">
           <nav className="navbar">
             <div className="navbar_logo_col">
-              <img
-                src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
-                alt="Logo"
-                className="navbar_logo"
-              />
+              <Link to="/">
+                <img
+                  src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+                  alt="Logo"
+                  className="navbar_logo"
+                />
+              </Link>
             </div>
             <div className="navbar_btn_col">
               <select name="" className="navbar_language_selector me-3">
                 <option value="">English</option>
               </select>
-              <Link to="" className="btn btn-custom">
+              <Link to="/login" className="btn btn-custom">
                 Sign In
               </Link>
             </div>
