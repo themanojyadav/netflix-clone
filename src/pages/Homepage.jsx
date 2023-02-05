@@ -77,7 +77,7 @@ function Homepage() {
             <div className="col-lg-6 col-12">
               <div className="tv_section_img_col common_section_img_col text-center">
                 <img
-                  src={process.env.REACT_APP_URL + "tv.png"}
+                  src={process.env.REACT_APP_URL + "images/tv.png"}
                   alt=""
                   className="common_section_img"
                 />
@@ -93,7 +93,7 @@ function Homepage() {
             <div className="col-lg-6 col-12">
               <div className="tv_section_img_col common_section_img_col text-center">
                 <img
-                  src={process.env.REACT_APP_URL + "mobile-0819.jpg"}
+                  src={process.env.REACT_APP_URL + "images/mobile-0819.jpg"}
                   alt=""
                   className="common_section_img"
                 />
@@ -131,7 +131,7 @@ function Homepage() {
             <div className="col-lg-6 col-12">
               <div className="tv_section_img_col common_section_img_col text-center">
                 <img
-                  src={process.env.REACT_APP_URL + "device-pile-in.png"}
+                  src={process.env.REACT_APP_URL + "images/device-pile-in.png"}
                   alt=""
                   className="common_section_img"
                 />
@@ -149,7 +149,7 @@ function Homepage() {
                 <img
                   src={
                     process.env.REACT_APP_URL +
-                    "AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png"
+                    "images/AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png"
                   }
                   alt=""
                   className="common_section_img"
