@@ -11,7 +11,7 @@ function Homepage() {
             <div className="navbar_logo_col">
               <Link to="/">
                 <img
-                  src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+                  src={process.env.REACT_APP_URL + "logo.png"}
                   alt="Logo"
                   className="navbar_logo"
                 />
@@ -77,7 +77,7 @@ function Homepage() {
             <div className="col-lg-6 col-12">
               <div className="tv_section_img_col common_section_img_col text-center">
                 <img
-                  src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+                  src={process.env.REACT_APP_URL + "tv.png"}
                   alt=""
                   className="common_section_img"
                 />
@@ -93,7 +93,7 @@ function Homepage() {
             <div className="col-lg-6 col-12">
               <div className="tv_section_img_col common_section_img_col text-center">
                 <img
-                  src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+                  src={process.env.REACT_APP_URL + "mobile-0819.jpg"}
                   alt=""
                   className="common_section_img"
                 />
@@ -131,7 +131,7 @@ function Homepage() {
             <div className="col-lg-6 col-12">
               <div className="tv_section_img_col common_section_img_col text-center">
                 <img
-                  src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png"
+                  src={process.env.REACT_APP_URL + "device-pile-in.png"}
                   alt=""
                   className="common_section_img"
                 />
@@ -147,7 +147,10 @@ function Homepage() {
             <div className="col-lg-6 col-12">
               <div className="tv_section_img_col common_section_img_col text-center">
                 <img
-                  src="https://occ-0-4606-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png?r=420"
+                  src={
+                    process.env.REACT_APP_URL +
+                    "AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png"
+                  }
                   alt=""
                   className="common_section_img"
                 />
